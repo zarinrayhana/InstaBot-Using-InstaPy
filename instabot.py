@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Oct 24 18:32:27 2020
-
-@author: zarin
-"""
 import random
 from instapy import InstaPy
 
@@ -26,26 +20,3 @@ session.set_delimit_commenting(enabled=True, max_comments=80, min_comments=0)
 session.set_user_interact(amount=10, randomize=True, percentage=80)
 
 session.like_by_tags(my_tags, amount=90, media=None)
-
-
-    
-
-
-    
-        
-                
-            
-            
-             
-                        
-                
-                          
-            
-    
-
-
-
-
-
-
-
